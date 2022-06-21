@@ -1,0 +1,44 @@
+173  mkdir star_wars
+  174  cd star_wars
+  175  mkdir empire
+  176  mkdir rebellion
+  177  cd empire
+  178  touch darth_vader.txt
+  179  echo "...heavy breathing..." >> darth_vader.txt
+  180  touch emperor_palpatine.txt
+  181  mkdir death_star
+  182  mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/darth_vader.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  183  git add.
+  184  git add .
+  185  git commit -m "Commiting Act 1"
+  186  cd ..
+  187  cd rebellion
+  188  touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt
+  189  touch obi_wan.txt
+  190  touch luke_skywalker.txt
+  191  mkdir millenium_falcon
+  192  cd millenium_falcom
+  193  cd millenium_falcon
+  194  touch han_solo.txt && touch chewbacca.txt
+  195  mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/luke_skywalker.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon && mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/obi_wan.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon && mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/princess_leia.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+  196  mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/princess_leia.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon
+  197  git commit -m 
+  198  git commit -m"Act 2 done"
+  199  mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon\* /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  200  mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon * /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  201  cd..
+  202  cd ..
+  203  rm obi_wan.txt
+  204  mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/chewbacca.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon && /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/han_solo.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon && /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/luke_skywalker.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon && /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/princess_leia.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon 
+  205  mv han_solo.txt millenium_falcon
+  206  mv luke_skywalker.txt millenium_falcon
+  207  mv princess_leia.txt millenium_falcon
+  208  mv millenium_falcon rebellion
+  209  mv millenium_falcon  /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+  210  mv rebellion millenium_falcon
+  211  mv /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+  212  mv darth_vader.txt /home/asdluke12/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+  213  cd ..
+  214  rm -rf death_star
+  215  git add .
+  216  git commit -m "Act 3 done"
